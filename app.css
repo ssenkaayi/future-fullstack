@@ -5,7 +5,7 @@
 -------------------- TEXT CSS -------------------- 
 
 Style
-Spacing
+Spacing & alignment
 Size
 Family
 Color
@@ -13,14 +13,47 @@ Color
 */
 
 
-/* CSS BOX */
+/* 
+-------------------- CSS BOX -------------------- */
 
 /* LAYOUT */
 
 
-/* Resource Center */
+/* Resource Center 
+
+-------------------- Typography --------------------
+
+1. styles  
+
+font-weight: 500 -> normal / 700 -> bold
+text-decoration -> none
+list-style -> none
+
+2. Spacing and Alignment
+
+line-spacing : 1.25px -> H / 1.50px -> P
+letter-spacing: -2 -> H / default (0) -> P
+text-aligment: left -> P / center -> H   
+
+*/
 
 
 
 
 /*  */
+
+/* text-reset */
+h1,h2,h3{
+
+    font-weight: 700;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li{
+    list-style: none;
+}
