@@ -37,7 +37,7 @@ text-aligment: left -> P / center -> H
 
 3. Sizing : scale 1.2
 
-sm -> 12px / a -> 16px / p -> 20px / h1 -> 24px / h2 -> 30px / h3 -> 36px / h4 -> 42px / h5 -> 50px / h6 -> 60px
+sm -> 12px / a -> 16px / p -> 20px / h6 -> 24px / h5 -> 30px / h4 -> 36px / h3 -> 42px / h2 -> 50px / h1 -> 60px
 
 4. Font-family
 
@@ -61,23 +61,43 @@ h1,h2,h3{
 
     font-weight: 700;
     letter-spacing: -2px;
-    line-height: 1.2px;
+    line-height: 1.2;
 
 }
-
-a{
-    text-decoration: none;
-    
-}
-
-/* p{
-
-} */
 
 p,a{
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
 }
+
+
+h1{ 
+    font-size: 62px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3 {
+
+    font-size:44px ;
+}
+
+p{
+
+    font-size: 20px;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
 
 li{
     list-style: none;
