@@ -35,6 +35,20 @@ line-spacing : 1.25px -> H / 1.50px -> P
 letter-spacing: -2 -> H / default (0) -> P
 text-aligment: left -> P / center -> H   
 
+3. Sizing : scale 1.2
+
+sm -> 12px / a -> 16px / p -> 20px / h1 -> 24px / h2 -> 30px / h3 -> 36px / h4 -> 42px / h5 -> 50px / h6 -> 60px
+
+4. Font-family
+
+poppin / san-serif
+
+5. Color 
+
+Primary
+Secondary
+Tertiary
+
 */
 
 
@@ -46,12 +60,23 @@ text-aligment: left -> P / center -> H
 h1,h2,h3{
 
     font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1.2px;
 
 }
 
 a{
     text-decoration: none;
+    
+}
+
+/* p{
+
+} */
+
+p,a{
     font-weight: 500;
+    line-height: 1.5px;
 }
 
 li{
