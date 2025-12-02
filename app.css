@@ -1,5 +1,7 @@
 /* Design Guide */
 
+/* shh-key SHA256:sSjB6kFcXlfyeFLKHSqBz2ekeBI6ZRuUN42GxrxFbP0 ssenkaaayi@gmail.com */
+
 /* 
 
 -------------------- TEXT CSS -------------------- 
@@ -14,7 +16,18 @@ Color
 
 
 /* 
--------------------- CSS BOX -------------------- */
+-------------------- CSS BOX -------------------- 
+
+Style
+Spacing & alignment
+Size
+Back-ground color
+
+padding 
+margin
+
+
+*/
 
 /* LAYOUT */
 
@@ -43,11 +56,17 @@ sm -> 12px / a -> 16px / p -> 20px / h6 -> 24px / h5 -> 30px / h4 -> 36px / h3 -
 
 poppin / san-serif
 
-5. Color 
 
-Primary
-Secondary
-Tertiary
+
+*/
+
+/* 
+
+-------------------- Color -------------------- 
+
+Primary : base / tint / shade
+Secondary : base / tint / shade
+Tertiary : base / tint / shade 
 
 */
 
@@ -62,12 +81,15 @@ h1,h2,h3{
     font-weight: 700;
     letter-spacing: -2px;
     line-height: 1.2;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 
 }
 
 p,a{
     font-weight: 500;
     line-height: 1.5;
+    font-family: 'poppins', sans-serif;
 }
 
 
@@ -82,6 +104,7 @@ h2{
 h3 {
 
     font-size:44px ;
+    text-align: left;
 }
 
 p{
