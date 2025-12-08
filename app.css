@@ -4,7 +4,7 @@
 
 /* 
 
--------------------- TEXT CSS -------------------- 
+-------------------- CSS TEXT PROPERTIES -------------------- 
 
 Style
 Spacing & alignment
@@ -16,7 +16,7 @@ Color
 
 
 /* 
--------------------- CSS BOX -------------------- 
+-------------------- CSS BOX PROPERTIES -------------------- 
 
 Style
 Spacing & alignment
@@ -54,7 +54,7 @@ sm -> 12px / a -> 16px / p -> 20px / h6 -> 24px / h5 -> 30px / h4 -> 36px / h3 -
 
 4. Font-family
 
-poppin / san-serif
+"poppin" , san-serif
 
 
 
@@ -64,9 +64,17 @@ poppin / san-serif
 
 -------------------- Color -------------------- 
 
-Primary : base / tint / shade
-Secondary : base / tint / shade
-Tertiary : base / tint / shade 
+source: open color / color picker
+
+Primary : base:#1c7ed6 / tint:#339af0 / shade:#1864ab
+Secondary : base:#7048e8 / tint:#845ef7 / shade:#5f3dc4
+Tertiary : base:#f76707 / tint:#ff922b / shade:#d9480f 
+
+*/
+
+/* -------------------- Images --------------------
+
+cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
 */
 
@@ -92,7 +100,6 @@ p,a{
     font-family: 'poppins', sans-serif;
 }
 
-
 h1{ 
     font-size: 62px;
 }
@@ -113,15 +120,34 @@ p{
 
 }
 
-
 a{
     text-decoration: none;
     font-size: 16px;
     
 }
 
-
-
 li{
     list-style: none;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+/* COMPONENTS */
+
+.btn{ 
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.btn-primary{
+    color:#1c7ed6 ;
+}
+
+.btn-secondary{
+    color:#7048e8 ;
 }
