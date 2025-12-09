@@ -69,6 +69,10 @@ source: open color / color picker
 Primary : base:#1c7ed6 / tint:#339af0 / shade:#1864ab
 Secondary : base:#7048e8 / tint:#845ef7 / shade:#5f3dc4
 Tertiary : base:#f76707 / tint:#ff922b / shade:#d9480f 
+grey: base: #343a40 / tint: #495057 / shade:#212529
+white: #ffffff
+black: #000000
+
 
 */
 
@@ -91,6 +95,7 @@ h1,h2,h3{
     line-height: 1.2;
     text-align: center;
     font-family: "Poppins", sans-serif;
+    color:#212529 ;
 
 }
 
@@ -98,6 +103,7 @@ p,a{
     font-weight: 500;
     line-height: 1.5;
     font-family: 'poppins', sans-serif;
+    color: #343a40;
 }
 
 h1{ 
@@ -158,4 +164,8 @@ li{
 
 .btn-secondary:hover, .btn-secondary:active{
     color:#5f3dc4;
+}
+
+.highlight{
+    color: #ffffff;
 }
