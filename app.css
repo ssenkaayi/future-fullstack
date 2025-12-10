@@ -87,6 +87,15 @@ cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
 /*  */
 
+body{
+
+    font-family: 'poppins', sans-serif;
+    color: #343a40;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
 /* text-reset */
 h1,h2,h3{
 
@@ -94,17 +103,14 @@ h1,h2,h3{
     letter-spacing: -2px;
     line-height: 1.2;
     text-align: center;
-    font-family: "Poppins", sans-serif;
     color:#212529 ;
 
 }
 
-p,a{
-    font-weight: 500;
-    line-height: 1.5;
-    font-family: 'poppins', sans-serif;
-    color: #343a40;
-}
+/* p, a, .small-text{
+    color: #212529;
+} */
+
 
 h1{ 
     font-size: 62px;
@@ -138,7 +144,6 @@ li{
 
 .small-text{
     font-size: 12px;
-    color: #343a40;
 }
 
 /* COMPONENTS */
@@ -149,6 +154,7 @@ li{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    padding: 5px 10px;
 }
 
 .btn-primary:link, .btn-primary:visited{
@@ -173,6 +179,7 @@ li{
 
 .highlight{
     color: #ffffff;
+    padding:10px 20px;
     
 }
 
@@ -188,4 +195,13 @@ li{
 .highlight-tartiary{
 
     background-color: #ff922b;
+}
+
+/* SECTIONS */
+
+.cta-card{
+    width: 1000px;
+    background-color: #339af0;
+    text-align: center;
+    padding: 50px 100px;
 }
