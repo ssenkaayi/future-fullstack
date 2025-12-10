@@ -85,7 +85,13 @@ cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
 
 
-/*  */
+/*-------------------- GLOBAL STYLES -------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
 
@@ -146,7 +152,7 @@ li{
     font-size: 12px;
 }
 
-/* COMPONENTS */
+/*--------------------  COMPONENTS --------------------  */
 
 .btn{ 
 
@@ -197,7 +203,16 @@ li{
     background-color: #ff922b;
 }
 
-/* SECTIONS */
+/*--------------------  SECTIONS  -------------------- */
+
+
+/*------------ NAVIGATION ------------*/
+
+/*------------ HERO ------------*/
+
+/*------------ FEATURE ------------*/
+
+/*------------ CTA ------------*/
 
 .cta-card{
     width: 1000px;
@@ -205,3 +220,5 @@ li{
     text-align: center;
     padding: 50px 100px;
 }
+
+/*------------ FOOTER ------------*/
