@@ -157,6 +157,7 @@ li{
 
 .small-text{
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 /*--------------------  COMPONENTS --------------------  */
@@ -167,7 +168,7 @@ li{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 
 .btn-primary:link, .btn-primary:visited{
@@ -216,7 +217,7 @@ li{
 /*------------ NAVIGATION ------------*/
 
 .nav-section{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /*------------ HERO ------------*/
@@ -225,10 +226,26 @@ li{
     margin-bottom: 100px;
 }
 
+.hero-section-heading{
+    margin-bottom: 10px;
+}
+
+.hero-section-paragraph{
+    margin-bottom: 50px;
+}
+
 /*------------ FEATURE ------------*/
 
 .feature-section{
     margin-bottom: 100px;
+}
+
+.feature-main-heading{
+    margin-bottom: 30px;
+}
+
+.feature-sub-headings{
+    margin-bottom: 10px;
 }
 
 /*------------ CTA ------------*/
