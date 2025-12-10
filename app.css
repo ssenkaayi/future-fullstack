@@ -215,11 +215,27 @@ li{
 
 /*------------ NAVIGATION ------------*/
 
+.nav-section{
+    margin-bottom: 50px;
+}
+
 /*------------ HERO ------------*/
+
+.hero-section{
+    margin-bottom: 100px;
+}
 
 /*------------ FEATURE ------------*/
 
+.feature-section{
+    margin-bottom: 100px;
+}
+
 /*------------ CTA ------------*/
+
+.cta-section{
+    margin-bottom:100px ;
+}
 
 .cta-card{
     width: 1000px;
