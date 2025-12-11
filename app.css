@@ -169,10 +169,12 @@ li{
     font-weight: 500;
     line-height: 1.5;
     padding: 10px 20px;
+    border-radius: 4px;
 }
 
 .btn-primary:link, .btn-primary:visited{
     background-color:#1c7ed6 ;
+    border: solid 2px #1c7ed6;
     color: #ffffff;
 }
 
@@ -183,6 +185,7 @@ li{
 
 .btn-primary:hover, .btn-primary:active{
     background-color:#1864ab ;
+    border:solid 2px #1864ab ;
     color: #ffffff;
 }
 
@@ -209,6 +212,7 @@ li{
 .highlight{
     color: #ffffff;
     padding:10px 20px;
+    border-radius: 8px;
     
 }
 
@@ -273,6 +277,8 @@ li{
 .cta-card{
     width: 1000px;
     background-color: #339af0;
+    border: solid 2px #1c7ed6;
+    border-radius: 16px;
     text-align: center;
     padding: 50px 100px;
 }
