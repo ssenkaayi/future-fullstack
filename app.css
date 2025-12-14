@@ -16,20 +16,32 @@ Color
 
 
 /* 
--------------------- CSS BOX PROPERTIES -------------------- 
+-------------------- CSS CONTENT BOX PROPERTIES -------------------- 
 
 Style
 Spacing & alignment
 Size
 Back-ground color
 
-padding 
-margin
+*/
 
+/* 
+-------------------- CSS CONTAINER BOX PROPERTIES -------------------- 
+
+Style
+Spacing & alignment
+Size
+Back-ground color
 
 */
 
-/* LAYOUT */
+/*-------------------- RESPONSIVE LAYOUT DESIGN --------------------
+
+Relative Units
+Fluid layouts
+Media Querries
+
+*/
 
 
 /* Resource Center 
@@ -57,11 +69,6 @@ sm -> 12px / a -> 16px / p -> 20px / h6 -> 24px / h5 -> 30px / h4 -> 36px / h3 -
 "poppin" , san-serif
 
 
-
-*/
-
-/* 
-
 -------------------- Color -------------------- 
 
 source: open color / color picker
@@ -74,22 +81,23 @@ white: #ffffff
 black: #000000
 
 
-*/
-
-/* -------------------- Images --------------------
+-------------------- Images --------------------
 
 cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
-*/
+-------------------- Padding --------------------
 
-/* -------------------- Margin --------------------
+4px / 8px / 16px
+
+-------------------- Margin --------------------
 
 10px / 20px / 30px / 40px / 50px / 100px/ 150px / 200px / 300px
 
+-------------------- Brder-raduis --------------------
+
+4px / 8px / 16px
+
 */
-
-
-
 
 
 /*-------------------- GLOBAL STYLES -------------------- */
@@ -107,6 +115,11 @@ body{
     font-weight: 500;
     line-height: 1.5;
 
+}
+
+.page-container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* text-reset */
@@ -277,6 +290,7 @@ span{
 
 .cta-section{
     margin-bottom:100px ;
+
 }
 
 .cta-card{
@@ -286,6 +300,17 @@ span{
     border-radius: 16px;
     text-align: center;
     padding: 50px 100px;
+    margin: 0 auto;
+}
+
+.cta-card-heading{
+
+    margin-bottom: 30px;
 }
 
 /*------------ FOOTER ------------*/
+
+.footer-section{
+
+    text-align: center;
+}
