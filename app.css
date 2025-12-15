@@ -109,6 +109,9 @@ html{
 }
 
 :root{
+
+    /*-------------- color variables --------------*/
+
     --primary-base: #1c7ed6;
     --primary-tint: #339af0;
     --primary-shade: #1864ab;
@@ -123,6 +126,10 @@ html{
     --gray-shade:#212529;
     --white:#ffffff;
     --blak:#000000;
+
+    /*-------------- spacing varivar(section-margin) --------------*/
+
+    --section-margin:10rem;
 
 }
 
@@ -274,7 +281,7 @@ span{
 /*------------ NAVIGATION ------------*/
 
 .nav-section{
-    margin-bottom: 10rem;
+    margin-bottom: var(--section-margin);
 }
 
 .logo-lg{
@@ -284,7 +291,7 @@ span{
 /*------------ HERO ------------*/
 
 .hero-section{
-    margin-bottom: 10rem;
+    margin-bottom: var(--section-margin);
     text-align: center;
 }
 
@@ -299,7 +306,7 @@ span{
 /*------------ FEATURE ------------*/
 
 .feature-section{
-    margin-bottom: 10rem;
+    margin-bottom: var(--section-margin);
 }
 
 .feature-main-heading{
@@ -317,7 +324,7 @@ span{
 /*------------ CTA ------------*/
 
 .cta-section{
-    margin-bottom:10rem ;
+    margin-bottom:var(--section-margin) ;
 
 }
 
