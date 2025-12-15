@@ -277,6 +277,10 @@ span{
     margin-bottom: 100px;
 }
 
+.logo-lg{
+    width: 100px;
+}
+
 /*------------ HERO ------------*/
 
 .hero-section{
@@ -306,6 +310,10 @@ span{
     margin-bottom: 10px;
 }
 
+.feature-image{
+    width: 400px;
+}
+
 /*------------ CTA ------------*/
 
 .cta-section{
@@ -333,4 +341,12 @@ span{
 .footer-section{
 
     text-align: center;
+}
+
+.logo-sm{
+    width: 80px;
+}
+
+.social-icons{
+    width: 20px;
 }
