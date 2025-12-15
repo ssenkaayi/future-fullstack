@@ -102,10 +102,10 @@ cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
 /*-------------------- GLOBAL STYLES -------------------- */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+    /* (10px /16px)* 100% = 62.5%*/
+
+    font-size:62.5%;
 }
 
 :root{
@@ -126,6 +126,12 @@ cources: undraw.co / unsplash.com / https://ionic.io/ionicons
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
 
     font-family: 'poppins', sans-serif;
@@ -144,7 +150,7 @@ body{
 h1,h2,h3{
 
     font-weight: 700;
-    letter-spacing: -2px;
+    letter-spacing: -0.2rem;
     line-height: 1.2;
     text-align: center;
     color:#212529 ;
@@ -157,28 +163,28 @@ h1,h2,h3{
 
 
 h1{ 
-    font-size: 62px;
+    font-size: 6.2rem;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 h3 {
 
-    font-size:44px ;
+    font-size:4.4rem ;
     text-align: left;
 }
 
 p{
 
-    font-size: 20px;
+    font-size: 2rem;
 
 }
 
 a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     display: inline-block;
     
 }
@@ -192,8 +198,7 @@ span{
 }
 
 .small-text{
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 /*--------------------  COMPONENTS --------------------  */
@@ -201,11 +206,11 @@ span{
 .btn{ 
 
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.5;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
 }
 
 .btn-primary:link, .btn-primary:visited{
@@ -236,11 +241,6 @@ span{
     color: var(--white);
 }
 
-/* .btn-secondary-fill:link, .btn-secondary-fill:visited{
-    border:solid 2px var(--secondary-base);
-    color: var(--secondary-base);
-} */
-
 .btn-secondary:hover, .btn-secondary:active{
     border:solid 2px var(--secondary-shade);
     color: var(--white);
@@ -249,7 +249,7 @@ span{
 
 .highlight{
     color: #ffffff;
-    padding:10px 20px;
+    padding:1rem 2rem;
     border-radius: 8px;
     
 }
@@ -274,50 +274,50 @@ span{
 /*------------ NAVIGATION ------------*/
 
 .nav-section{
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
 .logo-lg{
-    width: 100px;
+    width: 10rem;
 }
 
 /*------------ HERO ------------*/
 
 .hero-section{
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
     text-align: center;
 }
 
 .hero-section-heading{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .hero-section-paragraph{
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 /*------------ FEATURE ------------*/
 
 .feature-section{
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
 .feature-main-heading{
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .feature-sub-headings{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .feature-image{
-    width: 400px;
+    width: 40rem;
 }
 
 /*------------ CTA ------------*/
 
 .cta-section{
-    margin-bottom:100px ;
+    margin-bottom:10rem ;
 
 }
 
@@ -325,15 +325,15 @@ span{
     width: 1000px;
     background-color: #339af0;
     border: solid 2px #1c7ed6;
-    border-radius: 16px;
+    border-radius: 1.6rem;
     text-align: center;
-    padding: 50px 100px;
+    padding: 5rem 10rem;
     margin: 0 auto;
 }
 
 .cta-card-heading{
 
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 /*------------ FOOTER ------------*/
@@ -344,9 +344,9 @@ span{
 }
 
 .logo-sm{
-    width: 80px;
+    width: 8rem;
 }
 
 .social-icons{
-    width: 20px;
+    width: 2rem;
 }
