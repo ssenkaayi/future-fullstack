@@ -124,7 +124,6 @@ cources: undraw.co / unsplash.com / https://ionic.io/ionicons
     --white:#ffffff;
     --blak:#000000;
 
-
 }
 
 body{
@@ -221,30 +220,32 @@ span{
 }
 
 .btn-primary:hover, .btn-primary:active{
-    background-color:var(--primary-base) ;
-    border:solid 2px var(--primary-base) ;
+    background-color:var(--primary-shade) ;
+    border:solid 2px var(--primary-shade) ;
     color: var(--white);
 }
 
 .btn-primary-fill:hover, .btn-primary-fill:active{
-    border:solid 2px var(--primary-base) ;
-    color: var(--primary-base);
+    border:solid 2px var(--primary-shade) ;
+    color: var(--primary-shade);
 }
 
 .btn-secondary:link, .btn-secondary:visited{
-    background-color:var(--secondary-tint);
+    background-color:var(--secondary-base);
+    border:solid 2px var(--secondary-base);
     color: var(--white);
 }
 
-.btn-secondary-fill:link, .btn-secondary-fill:visited{
-    border:solid 2px var(--secondary-tint);
-    color: var(--secondary-tint);
-}
-
-/* .btn-secondary-fill:hover, .btn-secondary-fill:active{
-    border:solid 2px #5f3dc4 ;
-    color: #5f3dc4;
+/* .btn-secondary-fill:link, .btn-secondary-fill:visited{
+    border:solid 2px var(--secondary-base);
+    color: var(--secondary-base);
 } */
+
+.btn-secondary:hover, .btn-secondary:active{
+    border:solid 2px var(--secondary-shade);
+    color: var(--white);
+    border:solid 2px var(--secondary-shade);
+}
 
 .highlight{
     color: #ffffff;
