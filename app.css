@@ -151,13 +151,14 @@ body{
 .page-container{
     max-width: 1200px;
     margin: 0 auto;
+    width: 95%;
 }
 
 /* text-reset */
 h1,h2,h3{
 
     font-weight: 700;
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.2px;
     line-height: 1.2;
     text-align: center;
     color:#212529 ;
@@ -280,12 +281,22 @@ span{
 
 /*------------ NAVIGATION ------------*/
 
-.nav-section{
+.nav-bar{
     margin-bottom: var(--section-margin);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .logo-lg{
     width: 10rem;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 /*------------ HERO ------------*/
@@ -318,7 +329,9 @@ span{
 }
 
 .feature-image{
-    width: 40rem;
+    max-width: 40rem;
+    width: 100%;
+    /* width: 40rem; */
 }
 
 /*------------ CTA ------------*/
@@ -329,13 +342,14 @@ span{
 }
 
 .cta-card{
-    width: 1000px;
+    max-width: 1000px;
     background-color: #339af0;
     border: solid 2px #1c7ed6;
     border-radius: 1.6rem;
     text-align: center;
     padding: 5rem 10rem;
     margin: 0 auto;
+    /* width: 100%; */
 }
 
 .cta-card-heading{
