@@ -392,5 +392,6 @@ span{
 .footer-links{
     display: flex;
     flex-direction: row;
+    gap:2rem;
     
 }
