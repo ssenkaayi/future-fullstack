@@ -388,3 +388,9 @@ span{
     gap:1rem; 
 
 }
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    
+}
