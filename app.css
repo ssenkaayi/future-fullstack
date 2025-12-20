@@ -298,7 +298,7 @@ span{
 /*------------ HERO ------------*/
 
 .hero-section{
-    margin-bottom: var(--section-margin);
+    margin-bottom: 5rem;
     text-align: center;
     height: calc(100vh - 10rem);
     display: flex;
@@ -336,9 +336,23 @@ span{
     margin-bottom: 1rem;
 }
 
+.feature-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    row-gap: 5rem;
+    column-gap: 3rem;
+
+}
+
 .feature-image{
     max-width: 40rem;
     width: 100%;
+}
+
+.change-order{
+    grid-row: 2/3;
 }
 
 /*------------ CTA ------------*/
