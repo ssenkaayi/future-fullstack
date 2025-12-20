@@ -154,7 +154,6 @@ body{
     width: 95%;
 }
 
-/* text-reset */
 h1,h2,h3{
 
     font-weight: 700;
@@ -164,10 +163,6 @@ h1,h2,h3{
     color:#212529 ;
 
 }
-
-/* p, a, .small-text{
-    color: #212529;
-} */
 
 
 h1{ 
@@ -282,11 +277,11 @@ span{
 /*------------ NAVIGATION ------------*/
 
 .nav-bar{
-    margin-bottom: var(--section-margin);
+    /* margin-bottom: var(--section-margin); */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-top: 1rem; */
+    height: 10rem;
 }
 
 .logo-lg{
@@ -304,6 +299,11 @@ span{
 .hero-section{
     margin-bottom: var(--section-margin);
     text-align: center;
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-section-heading{
@@ -338,7 +338,6 @@ span{
 .feature-image{
     max-width: 40rem;
     width: 100%;
-    /* width: 40rem; */
 }
 
 /*------------ CTA ------------*/
