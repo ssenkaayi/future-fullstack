@@ -10,3 +10,11 @@
 
 // // console.log(heading_css)
 // console.log(main_heading.textContent)
+
+// if("cha">"bla"){
+//     console.log("cha")
+// }else{
+//     console.log('bra')
+// }
+
+console.log('b'>'c')
