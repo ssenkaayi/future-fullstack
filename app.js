@@ -17,4 +17,15 @@
 //     console.log('bra')
 // }
 
-console.log('b'>'c')
+// console.log('b'>'c')
+
+function javaScriptRange(number){
+
+    for(let i=1; i <= number;  i++){
+        // console.log(i);
+    };
+    
+};
+
+// (3);
+

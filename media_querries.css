@@ -107,7 +107,8 @@
 
     .hero-section{
         height: auto;
-        margin-top: 10rem;
+        margin: 10rem 0;
+        
     }
 
     .feature-grid-container{
